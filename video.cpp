@@ -11,7 +11,7 @@ int main() {
     double fontScale = 1;
     int thickness = 2;
 
-    VideoCapture cap("C:/Users/Nuta/Documents/Open CV/Practice 26.03/video1.mp4");
+    VideoCapture cap("C:/Users/Nuta/Documents/Open CV/Practice 26.03/video.mp4");
 
     if (!cap.isOpened())
     {
@@ -71,3 +71,4 @@ int main() {
 
     return 0;
 }
+
